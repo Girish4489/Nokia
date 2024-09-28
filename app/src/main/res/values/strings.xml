@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Nokia</string>
+    <string name="select_a_job">Select Test Environment:</string>
+    <string name="proceed">Proceed</string>
+<!-- text view -->
+    <string name="selected_environment">Selected Environment:</string>
+    <string name="test_services">Test Services</string>
+    <string name="test_suites">Test Suites</string>
+    <string name="test_cases">Test Cases</string>
+    <string name="ue_profiles">UE Profiles</string>
+    <string name="test_profile">Test Profile</string>
+    <string name="use_case">Use Case</string>
+<!-- spinner -->
+    <string name="select_use_case">Select Use Case</string>
+    <string name="select_ue_profile">Select UE Profile</string>
+    <string name="select_test_profile">Select Test Profile</string>
+    <string name="select_test_suites">Select Test Suites</string>
+    <string name="select_test_cases">Select Test Cases</string>
+    <string name="execute_tests">Execute Tests</string>
+    <string name="test_jobs_list">Test Jobs List</string>
+    <string name="job_name">Job Name</string>
+    <string name="execution_date">Execution Date</string>
+    <string name="username">Username</string>
+    <string name="total">Total</string>
+    <string name="executed">Executed</string>
+    <string name="pass">Pass</string>
+    <string name="fail">Fail</string>
+    <string name="status">Status</string>
+</resources>

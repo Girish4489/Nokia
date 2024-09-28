@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "message": "Suites and Config data Fetched Successfully....",
+  "output": {
+    "test_services": [
+      "Functional",
+      "NonFunctional"
+    ],
+    "test_suites": [
+      "4G-VOLTE",
+      "4g_end_to_end_testing"
+    ],
+    "test_cases": [
+      "4G_CMM_UE_attach_with_GUTI",
+      "4G_CMM_Network_initiated_data_session",
+      "4G_CMM_MT_SMS_Connected_Mode"
+    ],
+    "ue_profiles": [
+      "chennai_ue_01.yml",
+      "miniauto.yml"
+    ],
+    "env_profiles": [
+      "chennai_lab_offline.py",
+      "chennai_lab_online.py"
+    ],
+    "app_server": [
+      "APP_01",
+      "APP_02"
+    ],
+    "executor_type": "auto",
+    "sub_executor_type": "ntav",
+    "sut": "e2e"
+  },
+  "valid_session": true
+}

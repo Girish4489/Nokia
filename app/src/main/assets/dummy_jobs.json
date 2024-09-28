@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "message": "Fetched data successfully",
+  "output": [
+    {
+      "test_name": "DEMOJOB",
+      "job_name": "DEMOJOB"
+    },
+    {
+      "test_name": "TESTJOB",
+      "job_name": "TESTJOB"
+    }
+  ],
+  "valid_session": true
+}

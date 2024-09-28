@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:drawable/divider_horizontal_textfield"
+        android:dividerPadding="10sp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Selected Environment Display -->
+        <TextView
+            android:id="@+id/tvSelectedEnvironment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selected_environment"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Single-Select Spinners for UE Profiles and Environment Profiles -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:text="@string/ue_profiles"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerUEProfiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_ue_profile"
+            android:minHeight="48dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:text="@string/test_profile"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/spinnerEnvProfiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/select_test_profile"
+            android:minHeight="48dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Multi-Select Styled as Dropdown -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:text="@string/use_case"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSelectTestServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:hint="@string/select_use_case"
+            android:padding="12dp"
+            app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- Similar for Other Multi-Select Dropdowns -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:text="@string/test_suites"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSelectTestSuites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:hint="@string/select_test_suites"
+            android:padding="12dp"
+            app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:text="@string/test_cases"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvSelectTestCases"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/edit_text"
+            android:hint="@string/select_test_cases"
+            android:padding="12dp"
+            app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+
+        <!-- Execute Tests Button -->
+        <Button
+            android:id="@+id/btnExecute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="5sp"
+            android:paddingHorizontal="20sp"
+            android:text="@string/execute_tests"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>
